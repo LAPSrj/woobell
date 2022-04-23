@@ -1,0 +1,42 @@
+.woobell-notification{
+    display: none;
+    position: fixed;
+    top: calc(var(--wp-admin--admin-bar--height) + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    max-width: 100%;
+    z-index: 999999;
+    background: white;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+    padding: 10px;
+    animation-duration: 0.7s;
+    animation-name: woobell-attention;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.woobell-notification-inner{
+    display: flex;
+    align-items: center;    
+}
+
+.woobell-notification p{
+    font-weight: 600;
+    margin: 0;
+}
+
+.woobell-notification-actions{
+    margin-left: auto;
+}
+
+@keyframes woobell-attention {
+    from {
+        box-shadow: 0 0 15px rgb(3 169 244 / 30%);
+    }
+
+    to {
+        box-shadow: 0 0 15px rgb(3 169 244 / 100%);
+    }
+}

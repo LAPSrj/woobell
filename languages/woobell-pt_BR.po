@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooBell\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-23 03:41+0000\n"
+"PO-Revision-Date: 2022-04-23 03:42+0000\n"
+"Last-Translator: Leandro\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: woobell"
+
+#: notification.php:6
+msgid "Dismiss"
+msgstr "Dispensar"
+
+#. Author URI of the plugin
+msgid "https://github.com/LAPSrj"
+msgstr "https://github.com/LAPSrj"
+
+#. Author of the plugin
+msgid "Leandro Amorim"
+msgstr "Leandro Amorim"
+
+#. Description of the plugin
+msgid "Rings a bell every time a new order arrives"
+msgstr "Toca um som toda vez que um novo pedido é recebido"
+
+#: notification.php:5
+msgid "View order"
+msgstr "Ver pedido"
+
+#. Name of the plugin
+msgid "WooBell"
+msgstr "WooBell"
+
+#: notification.php:3
+msgid "You received a new order!"
+msgstr "Você recebeu um novo pedido!"
